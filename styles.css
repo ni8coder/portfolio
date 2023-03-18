@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #E5E5E5;
+}
+
+.major-heading-font {
+  font-family: "League Spartan", sans-serif;
+}
+
+.short-description-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.long-description-font {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+#hero-section {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 96px;
+}
+
+#about-wrapper {
+  width: 50%;
+  padding: 0 20px 0 0;
+}
+
+#contact-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  line-height: 14.06px;
+  color: #000000;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+#greeting {
+  font-weight: 500;
+  line-height: 19.36px;
+  margin-bottom: 10px;
+  color: #291854;
+}
+
+#title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+  color: #190D37;
+}
+
+#title-span {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+#bio {
+  line-height: 32px;
+  color: #331E6A;
+  margin-bottom: 20px;
+}
+
+#contact-button {
+  width: 138px;
+  height: 44px;
+  background-color: #2F2F2F;
+  color: #FFFFFF;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+#contact-button:hover {
+  cursor: pointer;
+}
+
+#hero-image-wrapper {
+  width: 50%;
+}
+
+#hero_image {
+  width: 100%;
+}
+
+#skill-section {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+}
+
+.section-title {
+  color: #2858FF;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.section-intro {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.section-description {
+  line-height: 27px;
+  width: 686px;
+  margin: 0 auto;
+  color: #190D37;
+  margin-bottom: 48px;
+  /* padding: 0 40px; */
+  text-align: center;
+}
+
+.horizontal-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+.card .card-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.card .card-description {
+  color: #55206D;
+  text-align: center;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-bottom: 127px;
+}
+
+.blue-box {
+  background-color: #19ACFF;
+}
+
+.yellow-box {
+  background-color: #FFE819;
+}
+
+.red-box {
+  background-color: #FF1919;
+}
+
+.project {
+  display: flex;
+  gap: 20px;
+}
+
+.project-logo {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  display: flex;
+  /* flex: 1; */
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+
+}
+
+.project-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #291854;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  color: #55206D;
+  margin-bottom: 8px;
+}
+
+.project-link {
+  color: #6A87A3;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-right: 6.8px;
+}
+
+.right-arrow {
+  width: 8.4px;
+  height: 6.9px;
+}
+
+#footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 58px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
